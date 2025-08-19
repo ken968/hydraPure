@@ -1,0 +1,12 @@
+KODE penting
+
+char ssid[] = "AndroidAP_5618";
+char pass[] = "12345677";
+
+ngukur ketinggian air 
+const float EMPTY_GALON_DISTANCE = 34.0; // Jarak sensor ke permukaan galon (tinggi wadah) (cm)
+const float FULL_GALON_DISTANCE = 9.0;  // Jarak sensor ke air saat penuh (cm)
+const float GALON_TINGGI = 34.0;       // Tinggi galon (cm)
+const float GALON_DIAMETER = 15.0;    // Diameter galon (cm)
+const float GALON_RADIUS = GALON_DIAMETER / 2.0;
+const float GALON_LUAS_ALAS = PI * GALON_RADIUS * GALON_RADIUS; // Luas alas galon (cm^2)
