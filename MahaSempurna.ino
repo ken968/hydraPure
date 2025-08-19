@@ -12,7 +12,7 @@ char ssid[] = "AndroidAP_5618";
 char pass[] = "12345677";
 
 // Pin
-const int TRIGGER_PIN = 13;
+const int TRIGGER_PIN = 11;
 const int ECHO_PIN = 12;
 const int RELAY_PIN = 23;
 const int BUZZER_PIN = 16;
